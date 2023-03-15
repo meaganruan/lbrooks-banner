@@ -1,0 +1,43 @@
+#banner{
+    background-image: 
+    linear-gradient(to right, rgba(8, 84, 100, 1), rgba(8, 84, 100, 0.75)),
+    url(imgs/capitolbuilding.webp);
+    /* background-color: #085464; */
+    height: 540px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#banner img{
+    display: block;
+    padding-top: 50px;
+    padding-left: 250px
+}
+
+#yellow-strip{
+    background-color: rgba(241,198,57,255);
+    width:80%;
+    height: 35%;
+    padding: 2px;
+    margin-right: 800px;
+}
+
+#yellow-strip h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+h2{
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+
+#lbrooksimg{
+    position: absolute;
+    top: 17.5%;
+    right: 12%;
+    border-radius: 50%;
+    width: 25%;
+}
